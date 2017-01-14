@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1484321592 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\juego.cpp
+	"Juego.h"
+	"Bala.h"
+	"Nave.h"
+	"AST.h"
+	"archivo.h"
+	<Puntaje.h>
+	<string>
+	<sstream>
+	<fstream>
+	<iostream>
+	<vector>
+	<string>
+
+1484320364 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\juego.h
+	<SFML/Graphics.hpp>
+	"Nave.h"
+	"AST.h"
+	"Bala.h"
+	<vector>
+	<list>
+	"Entidad.h"
+
+1482345502 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\main.cpp
+	"Juego.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<SFML/Graphics.hpp>
+
+1483578864 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\nave.h
+	<Entidad.h>
+
+1483480214 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\entidad.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1483480325 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\entidad.cpp
+	"Entidad.h"
+
+1484322031 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\nave.cpp
+	"Nave.h"
+	"Juego.h"
+	"Bala.h"
+	<string>
+	<sstream>
+
+1484009872 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\ast.cpp
+	"AST.h"
+
+1482347278 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\ast.h
+	<Entidad.h>
+
+1483475423 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\bala.h
+	<Entidad.h>
+
+1484009792 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\bala.cpp
+	"Bala.h"
+	"Juego.h"
+
+1483469238 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\archivo.h
+	<iostream>
+	<fstream>
+
+1483578767 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\puntaje.cpp
+	"Puntaje.h"
+	<iostream>
+	<string>
+	<nave.h>
+
+1483578754 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\puntaje.h
+	<iostream>
+	<string>
+	<nave.h>
+
