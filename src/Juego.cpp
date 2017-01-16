@@ -3,7 +3,6 @@
 #include "Nave.h"
 #include "AST.h"
 #include "archivo.h"
-#include "Leer.h"
 #include <Puntaje.h>
 #include <string>
 #include <sstream>
@@ -11,6 +10,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+
 
 
 using namespace std;
@@ -79,9 +79,6 @@ std::string to_string(T pNumber)
     return oOStrStream.str();
 }
 
-std::string cinn(string palabra){
-
-}
 
 
 void Juego::disparar(sf::Vector2f v)
@@ -92,6 +89,8 @@ void Juego::disparar(sf::Vector2f v)
 
 void Juego::loop()
 {
+    Puntaje p;
+
     sf::Texture bg_t;
     bg_t.loadFromFile("fondo.jpg");
 
@@ -246,7 +245,6 @@ void Juego::loop()
             return game_over();
         }
         nave.actualiza_puntaje();
-
 
         window.draw(v);
         window.draw(s);
