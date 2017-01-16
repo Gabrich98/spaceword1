@@ -3,6 +3,7 @@
 #include "Nave.h"
 #include "AST.h"
 #include "archivo.h"
+#include "Leer.h"
 #include <Puntaje.h>
 #include <string>
 #include <sstream>
@@ -89,7 +90,7 @@ void Juego::disparar(sf::Vector2f v)
 
 void Juego::loop()
 {
-    Puntaje p;
+
 
     sf::Texture bg_t;
     bg_t.loadFromFile("fondo.jpg");

@@ -4,6 +4,8 @@
 #include "Nave.h"
 #include "AST.h"
 #include "Bala.h"
+#include "Puntaje.h"
+#include "Leer.h"
 #include <vector>
 #include <list>
 #include "Entidad.h"
@@ -29,6 +31,8 @@ class Juego
         int contador;
         void pintar(sf::RenderWindow&);
         Nave nave;
+        Puntaje p;
+        Leer l;
         sf::RenderWindow& window;
         sf::Font fuente;
         list<Bala*> balas;

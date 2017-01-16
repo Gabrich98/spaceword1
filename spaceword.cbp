@@ -42,12 +42,14 @@
 		<Unit filename="include/Bala.h" />
 		<Unit filename="include/Entidad.h" />
 		<Unit filename="include/Juego.h" />
+		<Unit filename="include/Leer.h" />
 		<Unit filename="include/Nave.h" />
 		<Unit filename="include/Puntaje.h" />
 		<Unit filename="src/AST.cpp" />
 		<Unit filename="src/Bala.cpp" />
 		<Unit filename="src/Entidad.cpp" />
 		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Leer.cpp" />
 		<Unit filename="src/Nave.cpp" />
 		<Unit filename="src/Puntaje.cpp" />
 		<Unit filename="src/main.cpp" />

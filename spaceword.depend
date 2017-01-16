@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1484321592 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\juego.cpp
+1484595696 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\juego.cpp
 	"Juego.h"
 	"Bala.h"
 	"Nave.h"
 	"AST.h"
 	"archivo.h"
+	"Leer.h"
 	<Puntaje.h>
 	<string>
 	<sstream>
@@ -13,11 +14,13 @@
 	<vector>
 	<string>
 
-1484320364 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\juego.h
+1484596013 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\juego.h
 	<SFML/Graphics.hpp>
 	"Nave.h"
 	"AST.h"
 	"Bala.h"
+	"Puntaje.h"
+	"Leer.h"
 	<vector>
 	<list>
 	"Entidad.h"
@@ -29,7 +32,7 @@
 	<time.h>
 	<SFML/Graphics.hpp>
 
-1483578864 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\nave.h
+1484356030 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\nave.h
 	<Entidad.h>
 
 1483480214 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\entidad.h
@@ -39,23 +42,23 @@
 1483480325 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\entidad.cpp
 	"Entidad.h"
 
-1484322031 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\nave.cpp
+1484355973 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\nave.cpp
 	"Nave.h"
 	"Juego.h"
 	"Bala.h"
 	<string>
 	<sstream>
 
-1484009872 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\ast.cpp
+1484356180 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\ast.cpp
 	"AST.h"
 
-1482347278 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\ast.h
+1484355993 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\ast.h
 	<Entidad.h>
 
-1483475423 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\bala.h
+1484356190 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\bala.h
 	<Entidad.h>
 
-1484009792 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\bala.cpp
+1484356121 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\bala.cpp
 	"Bala.h"
 	"Juego.h"
 
@@ -63,7 +66,7 @@
 	<iostream>
 	<fstream>
 
-1483578767 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\puntaje.cpp
+1484356296 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\puntaje.cpp
 	"Puntaje.h"
 	<iostream>
 	<string>
@@ -73,4 +76,10 @@
 	<iostream>
 	<string>
 	<nave.h>
+
+1484595916 source:c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\src\leer.cpp
+	"Leer.h"
+
+1484595881 c:\users\gabriel\documents\facultad\juego poo\juego\spaceword\include\leer.h
+	<SFML/Graphics.hpp>
 
